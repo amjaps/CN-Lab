@@ -74,7 +74,7 @@ int main(){
 	
 	cout<<"From "<<src_node+1<<" to :"<<endl;
 	for(j=0;j<nodes;j++){
-		cout<<"Node "<<j+1<<" distanceance "<<vertex[j].distance<<" previous "<<vertex[j].previous+1<<endl;
+		cout<<"Node "<<j+1<<" distance "<<vertex[j].distance<<" previous "<<vertex[j].previous+1<<endl;
 	}
 	return 0;
 }
